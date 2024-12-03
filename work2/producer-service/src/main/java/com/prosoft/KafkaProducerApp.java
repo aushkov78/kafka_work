@@ -28,7 +28,7 @@ public class KafkaProducerApp {
             for (byte i = b; i < b+25; i++) {
 //                Person person = createPerson(i);
                 char s = (char)i;
-                Symbol smb = new Symbol(i+1, s,"blue",i);
+                Symbol smb = new Symbol(i+1, s, (i % 2)==0 ? "blue" : "green",i);
 
                 String topic = KafkaConfig.TOPIC_CONSONANTS;
                 if (s =='A' || s=='E' || s =='I' || s=='O' ||s=='U')
