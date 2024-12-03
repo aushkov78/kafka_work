@@ -7,9 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Symbol {
+public class Person {
     private long id;
-    private char sValue;
-    private String sColor;
-    private int sType;
+    private String firstName;
+    private String lastName;
+    private int age;
 }

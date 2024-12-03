@@ -1,3 +1,5 @@
+git@github.com:aushkov78/kafka_work.git
+
 `1.` Запуск контейнеров Docker:
 ```shell
 docker compose up -d
